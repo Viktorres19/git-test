@@ -1,0 +1,27 @@
+Set name of the user
+git config --local user.name "viktor"
+Set email of the user
+git config --local user.email viktoralwaysfirst@gmail.com
+статус змін в папці:
+git status
+розмістити файли в репозиторії:
+git add .
+знову (щоб подивитись зміни, що будуть додані в коміт):
+git status
+переводимо всі файли в стан коміт
+git commit -a -m"first commit"
+Якщо внесемо зміни, то команда git status знову покаже нам зміни.
+
+Подивитись перелік комітів:
+git log
+
+Як викласти на Гітхаб:
+1. Створили репо;
+2. Цією командою:
+git remote add origin git@github.com:Viktorres19/git-test.git
+пушимо з командної строки (підключаємо віддалений репо)
+3. Перевіряємо гілку (master):
+git branch
+4. Пушимо в неї:
+git push -u origin master
+lorem
